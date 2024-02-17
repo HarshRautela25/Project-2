@@ -118,10 +118,12 @@ body{
 
 
 .right-cont{
-    width: 75vw;
+    width: 100vw;
     margin:10px 2px;
     border-radius:10px;
     margin-right: 22px;
+    padding: 0 10px;
+    padding-right: 0px;
     position: relative;
 }
 
@@ -159,22 +161,34 @@ body{
     font-size: 17px;
 }
 
+.card-cont{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    gap:1.2rem;
+    row-gap: 1.6rem;
+}
 .card{
-    width: 175px;
-    height: 290px;
-    background-color:rgb(33, 31, 31);
+    width: 220px;
+    height: 250px;
+    background-color:rgb(25, 22, 22);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     gap: 13px;
-    padding: 19px 5px;
+    padding: 25px 19px;
     position: relative;
 }
 
 .play{
     display: none;
+}
+
+.card:hover{
+    background-color: #1d1b1b;
+    /* transform: scale(1.1); */
 }
 
 
@@ -187,8 +201,8 @@ body{
        align-items: center;
        justify-self: center;
        position: absolute;
-       top: 139px;
-       left: 115px;
+       top: 130px;
+       left: 135px;
        z-index: 8888;
        padding:8px 6px;
        padding-left:8px;
@@ -204,8 +218,8 @@ body{
 }
 
 .card img{
-    width:150px;
-    height: 210px;
+    width:180px;
+    height: 150px;
     border-radius: 10px;
     filter: drop-shadow(0px 0px 70px #000000);
 }
@@ -220,18 +234,12 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding:55px 22px ;
+    /* padding:55px 22px ; */
 }
 .spotify-playlist h3{
     line-height: 34px;
 }
 
-.card-cont{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap:1.2rem;
-    row-gap: 1.6rem;
-}
 
 footer{
     width: 100%;
@@ -287,13 +295,20 @@ footer{
     /* bottom: 0; */
     /* position: absolute; */
     padding: 12px;
-    background-color:lightgreen;
+    background-color:#1fdf64;
     margin: auto;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 
 .song-btns{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap:1rem;
+}
+
+.song-btns img{
+    width: 40px;
+    height: 35px;
 }
