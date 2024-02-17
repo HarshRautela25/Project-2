@@ -1,0 +1,107 @@
+.border{
+    border :2px solid red;
+    margin:1px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.align-items{
+    align-items: center;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.rounded-2{
+    border-radius: 20px;
+}
+.m-1{
+    margin:5px;
+}
+
+.m-2{
+    margin:10px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 10px;
+}
+
+
+.gap-1{
+    gap: 16px;
+}
+
+
+/* hover class */
+
+.library-content:hover{
+    overflow-y: auto;
+}
+
+
+#btn-content-box{
+    width: 130px;
+    height: 35px;
+    border: none;
+    outline :none;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 14px;
+    font-weight:600;
+}
+
+
+#footer-btn{
+    width: 115px;
+    height: 35px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    font-weight: 500;
+    border-radius: 31px;
+    margin: 21px 13px;
+    margin-left: 27px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+
+#login-btn{
+    width: 105px;
+    height: 45px;
+     border-radius:50px;
+     border: none;
+  font-size: 19px;
+    padding: 5px 16px;
+}
